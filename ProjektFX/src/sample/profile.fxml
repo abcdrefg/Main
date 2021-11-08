@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="792.0" prefWidth="1139.0" style="-fx-background-color: #d2d4d6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ProfileController">
+   <children>
+      <Text fill="#0d4444" layoutX="89.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil użytkownika" wrappingWidth="739.36083984375">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Label fx:id="mainUsernameLabel" layoutX="319.0" layoutY="58.0" textFill="#85ced0">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <AnchorPane layoutX="89.0" layoutY="149.0" prefHeight="254.0" prefWidth="580.0" style="-fx-background-color: #a5a6a7;">
+         <children>
+            <Text layoutX="45.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="45.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imię:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="44.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwisko:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="44.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hasło:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="profileImageView" fitHeight="127.0" fitWidth="127.0" layoutX="604.0" layoutY="67.0">
+               <image>
+                  <Image url="@../../img/user_profile.png" />
+               </image>
+            </ImageView>
+            <Text fill="#0d4444" layoutX="44.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dane osobowe" wrappingWidth="739.36083984375">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Label fx:id="usernameLabel" layoutX="93.0" layoutY="80.0" />
+            <Label fx:id="nameLabel" layoutX="86.0" layoutY="111.0" />
+            <Label fx:id="surnameLabel" layoutX="113.0" layoutY="143.0" />
+            <Label fx:id="passwordLabel" layoutX="93.0" layoutY="179.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="89.0" layoutY="445.0" prefHeight="254.0" prefWidth="580.0" style="-fx-background-color: #a1cacc;">
+         <children>
+            <Text layoutX="45.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ilość gier:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="45.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Łączny czas spędzony w grze:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="44.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ulubiona gra:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#0d4444" layoutX="44.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Szczegóły dotyczące konta" wrappingWidth="739.36083984375">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Label fx:id="gamesCountLabel" layoutX="109.0" layoutY="81.0" />
+            <Label fx:id="timeSpentLabel" layoutX="233.0" layoutY="111.0" />
+            <Label fx:id="favGameLabel" layoutX="134.0" layoutY="144.0" />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="iconImageView1" blendMode="OVERLAY" layoutX="1006.0" layoutY="27.0" rotate="-32.7">
+         <image>
+            <Image url="@../../img/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iconImageView2" blendMode="OVERLAY" fitHeight="70.0" fitWidth="70.0" layoutX="963.0" layoutY="172.0" rotate="45.0">
+         <image>
+            <Image url="@../../img/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iconImageView3" blendMode="OVERLAY" fitHeight="42.0" fitWidth="38.0" layoutX="1057.0" layoutY="273.0" rotate="-45.0">
+         <image>
+            <Image url="@../../img/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="padImageView3" blendMode="SOFT_LIGHT" layoutX="1054.0" layoutY="167.0" rotate="-49.6">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/library.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="padImageView4" fitHeight="43.0" fitWidth="62.0" layoutX="956.0" layoutY="282.0" rotate="54.5">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/library.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="padImageView2" fitHeight="24.0" fitWidth="38.0" layoutX="968.0" layoutY="122.0">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/library.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartImageView1" fitHeight="99.0" fitWidth="99.0" layoutX="1027.0" layoutY="341.0" rotate="-31.3">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/shop.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playImageView" blendMode="OVERLAY" fitHeight="57.0" fitWidth="105.0" layoutX="934.0" layoutY="368.0" rotate="-25.0">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iconImageView6" blendMode="LIGHTEN" fitHeight="64.0" fitWidth="62.0" layoutX="992.0" layoutY="437.0" rotate="-39.8">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="padImageView5" blendMode="SOFT_LIGHT" layoutX="909.0" layoutY="464.0" rotate="71.6">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/library.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iconImageView4" blendMode="OVERLAY" layoutX="1017.0" layoutY="503.0">
+         <image>
+            <Image url="@../../img/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cartImageView2" fitHeight="99.0" fitWidth="99.0" layoutX="1027.0" layoutY="622.0">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/shop.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iconImageView5" blendMode="OVERLAY" fitHeight="42.0" fitWidth="38.0" layoutX="979.0" layoutY="630.0" rotate="122.0">
+         <image>
+            <Image url="@../../img/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="padImageView1" fitHeight="24.0" fitWidth="38.0" layoutX="1098.0" layoutY="10.0" rotate="-54.2">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/library.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="padImageView6" fitHeight="24.0" fitWidth="38.0" layoutX="967.0" layoutY="572.0" rotate="122.5">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/library.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="padImageView7" fitHeight="24.0" fitWidth="38.0" layoutX="1085.0" layoutY="731.0">
+         <image>
+            <Image url="@../../../../ProjektFX/ProjektFX/img/library.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
